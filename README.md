@@ -5,7 +5,7 @@ For specific links, see e.g. http://forums.petri.com/showthread.php?t=62255 and 
 This is for the case when there's nothing special on the server (no multihoming, virtualization etc.) -
 the cause appears to be that TCP/IP is not fully functional when its driver reports it has started.
 
-The scripts searches DNS server event log for the specific errors and restarts its service if there are.
+The scripts searches DNS server event log for the specific errors that have occured during the current startup and restarts its service if there are.
 
 # Installation
 
