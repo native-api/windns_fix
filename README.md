@@ -1,4 +1,4 @@
-Workaround for win2008/win2012 dns server startup bug
+Workaround for win2008/win2012 DNS server startup bug: errors 404,407,408 at system startup.
 
 See https://www.google.ru/search?q=win2008+win2012+dns+error+404+407+408 for the bug discussion.
 For specific links, see e.g. http://forums.petri.com/showthread.php?t=62255 and https://social.technet.microsoft.com/Forums/ru-RU/374112f8-f8a5-4eb8-8682-2a54b2de601f .
