@@ -72,7 +72,7 @@ def main():
     evtlog_name="DNS Server"
     service_name=evtlog_name
     
-    service_state=win32serviceutil.QueryServiceStatus("dns")[1]
+    service_state=win32serviceutil.QueryServiceStatus(service)[1]
     assert service_state==win32service.SERVICE_RUNNING,\
         "`%s' service is not running when it should; state=%s"%(service,service_state)
     del service_state
